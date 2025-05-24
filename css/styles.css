@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  width: 1440px;
+  padding: 24px 156px;
+  margin: 0 auto;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 24px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.gallery-image {
+  display: block;
+  width: 360px;
+  height: 200px;
+}
+
+.gallery-item {
+}
+.gallery-link,
+.gallery-item {
+  display: block;
+}
+.modal {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.modal img {
+  display: block;
+  width: 1112px;
+  height: 640px;
+}
